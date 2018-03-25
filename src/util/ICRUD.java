@@ -8,7 +8,7 @@ public interface ICRUD {
 	public boolean Duzenle(Object o);
 	public boolean Sil(int id);
 	public List<Object> Listele();
-	public Object Bul(int id);
+	public Object Bul(int id) ;
 	 
 	
 }
